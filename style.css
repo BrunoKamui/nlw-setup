@@ -19,6 +19,7 @@ header {
   padding: 48px;
   position: fixed;
   width: 100vw;
+  background-color: #09090A;
 }
 
 button {
@@ -41,8 +42,16 @@ button {
 form {
   display: flex;
 
-  padding: 182px 48px 48px 48px;
+  padding: 180px 48px 48px 48px;
   width: fit-content;
+}
+
+.hidden-div {
+  height: 40px;
+  width: 64px;
+  background-color: #09090A;
+  position: fixed;
+  margin-top: -60px;
 }
 
 .habits {
@@ -76,15 +85,21 @@ form {
 }
 
 .day div {
-  margin-bottom: 8px;
+  width: 64px;
 
   font-family: 'Roboto Mono';
   font-size: 20px;
-  line-height: 125%;
+  line-height: 200%;
 
   color: #a1a1aa;
 
   text-align: center;
+  position: fixed;
+  background-color: #09090A;
+}
+
+input:nth-child(2) {
+  margin-top: 52px;
 }
 
 input {
