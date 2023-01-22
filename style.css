@@ -47,7 +47,7 @@ form {
 }
 
 .hidden-div {
-  height: 40px;
+  min-height: 40px;
   width: 64px;
   background-color: #09090A;
   position: fixed;
